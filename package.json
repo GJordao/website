@@ -1,0 +1,26 @@
+{
+    "name": "jordao.xyz",
+    "version": "1.0.0",
+    "description": "Personal Website",
+    "scripts": {
+        "dev": "next",
+        "build": "next build",
+        "start": "next start",
+        "export": "next export"
+    },
+    "keywords": [
+        "Gustavo",
+        "Jordao",
+        "Website",
+        "gjordao"
+    ],
+    "author": "Gustavo Jordao",
+    "license": "ISC",
+    "dependencies": {
+        "aphrodite": "~2.2.0",
+        "prop-types": "~15.6.1",
+        "next": "^6.1.1",
+        "react": "^16.4.2",
+        "react-dom": "^16.4.2"
+    }
+}
