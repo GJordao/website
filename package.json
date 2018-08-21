@@ -2,6 +2,7 @@
     "name": "jordao.xyz",
     "version": "1.0.0",
     "description": "Personal Website",
+    "repository": "https://github.com/GJordao/website",
     "scripts": {
         "dev": "next",
         "build": "next build",
