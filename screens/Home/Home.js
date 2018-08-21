@@ -62,7 +62,7 @@ const Home = () => {
                         src={"/static/pixel.jpeg"}
                     />
                     <div className={css(styles.pixelDescription)}>
-                        Bonus points for my (female) dog Pixel!
+                        Bonus points for my (female) pupper Pixel!
                     </div>
                 </div>
             </div>
