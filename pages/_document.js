@@ -36,7 +36,7 @@ export default class MyDocument extends Document {
                             -moz-osx-font-smoothing: grayscale;
                             box-sizing: inherit;
                         }
-                        body { margin: 0; }
+                        body { margin: 0; background-color: rgb(30,30,30); }
                     `}</style>
                 </Head>
                 <body>

@@ -33,6 +33,8 @@ const styles = StyleSheet.create({
         color: "#ffffff",
         fontSize: 24,
         lineHeight: 1.71,
+        marginLeft: "5%",
+        marginRight: "5%",
         textAlign: "center",
         "@media (max-width: 550px) ": {
             fontSize: 16
@@ -66,7 +68,7 @@ const styles = StyleSheet.create({
         width: 200
     },
     pixel: {
-        borderRadius: 60,
+        borderRadius: 175,
         height: "auto",
         width: 350,
         "@media (max-width: 550px) ": {

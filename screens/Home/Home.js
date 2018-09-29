@@ -59,7 +59,7 @@ const Home = () => {
                     <img
                         alt={"This is my dog Pixel"}
                         className={css(styles.pixel)}
-                        src={"/static/pixel.jpeg"}
+                        src={"/static/pixel.png"}
                     />
                     <div className={css(styles.pixelDescription)}>
                         Bonus points for my (female) pupper Pixel!
