@@ -26,14 +26,20 @@ const Home = () => {
                     />
                 </div>
                 <div className={css(styles.linksContainer)}>
-                    <a href={"https://www.linkedin.com/in/gjord%C3%A3o/"}>
+                    <a
+                        href={"https://www.linkedin.com/in/gjord%C3%A3o/"}
+                        rel="noopener noreferrer"
+                    >
                         <img
                             alt={"Linkedin"}
                             className={css(styles.link)}
                             src={"/static/ic_linkedin.svg"}
                         />
                     </a>
-                    <a href={"mailto:jordao.f.gustavo@gmail.com"}>
+                    <a
+                        href={"mailto:jordao.f.gustavo@gmail.com"}
+                        rel="noopener noreferrer"
+                    >
                         <img
                             alt={"Email me"}
                             className={css(styles.link)}
@@ -45,6 +51,7 @@ const Home = () => {
                         href={
                             "https://firebasestorage.googleapis.com/v0/b/website-jordao.appspot.com/o/GustavoJordao_cv_EN.pdf?alt=media&token=cd8b3cc6-6328-4c4b-a6c2-092c074d1159"
                         }
+                        rel="noopener noreferrer"
                     >
                         <img
                             alt={"Download my curriculum"}
@@ -52,7 +59,10 @@ const Home = () => {
                             src={"/static/ic_curriculum.svg"}
                         />
                     </a>
-                    <a href={"https://github.com/gjordao"}>
+                    <a
+                        href={"https://github.com/gjordao"}
+                        rel="noopener noreferrer"
+                    >
                         <img
                             alt={"Github"}
                             className={css(styles.link)}
