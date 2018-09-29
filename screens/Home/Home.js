@@ -5,10 +5,10 @@ import styles from "./Home.css";
 
 const Home = () => {
     return (
-        <div className={css(styles.container)}>
+        <main className={css(styles.container)}>
             <div className={css(styles.contentContainer)}>
                 <div className={css(styles.description)}>
-                    Hello my name is Gustavo Jordão I'm a software developer
+                    Hello my name is Gustavo Jordão, I'm a software developer
                     from Portugal who works mainly with JavaScript technologies
                     like React, Node, Express and React Native but also other
                     interesting technologies and tools like GraphQl, Firebase,
@@ -20,6 +20,7 @@ const Home = () => {
                 </div>
                 <div className={css(styles.picContainer)}>
                     <img
+                        alt={"Gustavo Jordão"}
                         className={css(styles.pic)}
                         src={"/static/c_gustavo.jpg"}
                     />
@@ -27,12 +28,14 @@ const Home = () => {
                 <div className={css(styles.linksContainer)}>
                     <a href={"https://www.linkedin.com/in/gjord%C3%A3o/"}>
                         <img
+                            alt={"Linkedin"}
                             className={css(styles.link)}
                             src={"/static/ic_linkedin.svg"}
                         />
                     </a>
                     <a href={"mailto:jordao.f.gustavo@gmail.com"}>
                         <img
+                            alt={"Email me"}
                             className={css(styles.link)}
                             src={"/static/ic_email.svg"}
                         />
@@ -44,12 +47,14 @@ const Home = () => {
                         }
                     >
                         <img
+                            alt={"Download my curriculum"}
                             className={css(styles.link)}
                             src={"/static/ic_curriculum.svg"}
                         />
                     </a>
                     <a href={"https://github.com/gjordao"}>
                         <img
+                            alt={"Github"}
                             className={css(styles.link)}
                             src={"/static/ic_github.svg"}
                         />
@@ -59,14 +64,14 @@ const Home = () => {
                     <img
                         alt={"This is my dog Pixel"}
                         className={css(styles.pixel)}
-                        src={"/static/pixel.png"}
+                        src={"/static/pixel.jpg"}
                     />
                     <div className={css(styles.pixelDescription)}>
                         Bonus points for my (female) pupper Pixel!
                     </div>
                 </div>
             </div>
-        </div>
+        </main>
     );
 };
 

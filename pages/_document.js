@@ -10,7 +10,7 @@ export default class MyDocument extends Document {
 
     render() {
         return (
-            <html>
+            <html lang="en">
                 <Head>
                     <meta
                         name="viewport"
@@ -38,6 +38,21 @@ export default class MyDocument extends Document {
                         }
                         body { margin: 0; background-color: rgb(30,30,30); }
                     `}</style>
+                    <meta
+                        name="description"
+                        content="I am a fullstack developer, tech geek and lover of beer"
+                    />
+                    <meta property="og:title" content="Gustavo Jordão" />
+                    <meta property="og:type" content="website" />
+                    <meta
+                        property="og:description"
+                        content="Fullstack developer, tech geek and lover of beer"
+                    />
+                    <meta property="og:url" content="https://jordao.xyz" />
+                    <meta
+                        property="og:image"
+                        content="https://jordao.xyz/static/c_gustavo.jpg"
+                    />
                 </Head>
                 <body>
                     <Main />

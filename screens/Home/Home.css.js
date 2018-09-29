@@ -70,9 +70,9 @@ const styles = StyleSheet.create({
     pixel: {
         borderRadius: 175,
         height: "auto",
-        width: 350,
+        width: 300,
         "@media (max-width: 550px) ": {
-            width: 250
+            width: 200
         }
     },
     pixelDescription: {
