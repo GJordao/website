@@ -49,7 +49,7 @@ const Home = () => {
                     <a
                         target={"_blank"}
                         href={
-                            "https://firebasestorage.googleapis.com/v0/b/website-jordao.appspot.com/o/GustavoJordao_cv_EN.pdf?alt=media&token=2f0fee43-be76-4764-92b9-97398adec1d7"
+                            "https://firebasestorage.googleapis.com/v0/b/website-jordao.appspot.com/o/GustavoJordao_cv_EN.pdf?alt=media&token=843f34b5-7116-4ac0-9661-9ad8b4db977d"
                         }
                         rel="noopener noreferrer"
                     >
