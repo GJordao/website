@@ -19,12 +19,12 @@
     "license": "ISC",
     "dependencies": {
         "aphrodite": "~2.2.0",
+        "next": "~9.1.4",
         "prop-types": "~15.6.1",
-        "next": "^6.1.1",
-        "react": "^16.4.2",
-        "react-dom": "^16.4.2"
+        "react": "~16.12.0",
+        "react-dom": "~16.12.0"
     },
     "devDependencies": {
-        "firebase-tools": "^4.1.2"
+        "firebase-tools": "~7.8.1"
     }
 }
