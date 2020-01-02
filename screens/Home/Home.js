@@ -15,8 +15,7 @@ const Home = () => {
                     and Docker. I'm a tech geek who likes to learn new things,
                     participate in hackathons and share with the community,
                     being it through talks or workshops. I'm currently living in
-                    sunny Faro but am looking to go abroad somewhere in Europe
-                    for new experiences and new challenges :).
+                    sunny Faro working as a Freelancer and looking for new experiences and new challenges :).
                 </div>
                 <div className={css(styles.picContainer)}>
                     <img
